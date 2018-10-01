@@ -1,6 +1,4 @@
----
-title: Codeing Guidelines
----
+# Codeing Guidelines
 
 When possible, the following are enforced through the code formatter
 (Prettier.js) and tslint rules.

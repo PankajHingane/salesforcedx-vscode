@@ -1,6 +1,4 @@
----
-title: Tests
----
+# Tests
 
 There are several kinds of tests for the VS Code Extensions. This document
 describes them and give pointers on how to run/debug them.

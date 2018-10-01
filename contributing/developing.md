@@ -1,6 +1,4 @@
----
-title: Developing
----
+# Developing
 
 ## Pre-requisites
 

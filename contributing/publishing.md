@@ -1,6 +1,4 @@
----
-title: Publishing
----
+# Publishing
 
 This is a guide for publishing to the Visual Studio Code Marketplace. Most
 contributors will not need to worry about publishing. However, it might be
