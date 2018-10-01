@@ -1,0 +1,37 @@
+- title: Getting Started
+  children:
+    - title: Thing 1
+      url: /thing1.html
+    - title: Thing 2
+      url: /thing2.html
+    - title: Thing 3
+      url: /thing3.html
+- title: Reference
+  children:
+    - title: Piece 1
+      url: /piece1.html
+    - title: Piece 2
+      url: /piece2.html
+    - title: Piece 3
+      url: /piece3.html
+- title: Contributing
+  baseUrl: /contributing/
+  children:
+    - title: Coding Guidelines
+      url: /contributing/coding-guidelines/
+    - title: Commit Guidelines
+      url: /contributing/commit-guidelines/
+    - title: Dependancies
+      url: /contributing/dependencies/
+    - title: Developing
+      url: /contributing/developing/
+    - title: Localization
+      url: /contributing/localization/
+    - title: Publishing
+      url: /contributing/publishing/
+    - title: Telemetry
+      url: /contributing/telemetry/
+    - title: Tests
+      url: /contributing/tests/
+- title: FAQ
+  url: /faq/

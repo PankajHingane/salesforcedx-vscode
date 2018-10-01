@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>{{page.title}}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/styles/docs.css">
+</head>
+
+<body>
+  <div class="site-page-wrapper" id="site-page-wrapper" tabindex="-1">
+    {% include sidebar.html %}
+    <main class="site-main slds-order_1" role="main" id="site-main-content" tabindex="-1">
+      <header class="site site-masthead slds-grid slds-wrap">
+        <div class="site-masthead-title slds-has-flexi-truncate slds-align-middle"><span class="slds-hide docsearch-category">{{page.title}}</span>
+          <h1 title="{{page.title}}">{{page.title}}</h1>
+        </div>
+      </header>
+      <div class="site-content site site-platforms">
+        <div class="slds-grid slds-wrap slds-large-nowrap">
+          {% include sticky-nav.html %}
+          <div class="site site-main-content slds-col slds-col--rule-right slds-size_1-of-1 slds-large-size--9-of-12 slds-large-order--1">
+            <div class="slds-container_medium">
+              {{content}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>
