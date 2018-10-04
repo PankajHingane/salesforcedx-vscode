@@ -443,6 +443,9 @@ footer.site-contentinfo a:hover {
 .site pre[class*='language-'] {
   position: static;
 }
+.highlighter-rouge {
+  
+}
 .site pre.highlight {
   margin-top: 0;
   margin-bottom: 2rem;

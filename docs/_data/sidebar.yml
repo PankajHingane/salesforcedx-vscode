@@ -6,6 +6,17 @@
       url: /thing2.html
     - title: Thing 3
       url: /thing3.html
+- title: How To
+  baseUrl: /articles/how-to/
+  children:
+    - title: Org Development
+      url: /articles/how-to/org-development-model
+    - title: Package Development
+      url: /articles/how-to/package-development-model
+    - title: 'Migrate: Force.com IDE'
+      url: /articles/how-to/migrate-from-forcecom-ide
+    - title: 'Migrate: Mavens Mate'
+      url: /articles/how-to/migrate-from-mavens-mate
 - title: Reference
   children:
     - title: Piece 1
@@ -14,24 +25,5 @@
       url: /piece2.html
     - title: Piece 3
       url: /piece3.html
-- title: Contributing
-  baseUrl: /contributing/
-  children:
-    - title: Coding Guidelines
-      url: /contributing/coding-guidelines/
-    - title: Commit Guidelines
-      url: /contributing/commit-guidelines/
-    - title: Dependancies
-      url: /contributing/dependencies/
-    - title: Developing
-      url: /contributing/developing/
-    - title: Localization
-      url: /contributing/localization/
-    - title: Publishing
-      url: /contributing/publishing/
-    - title: Telemetry
-      url: /contributing/telemetry/
-    - title: Tests
-      url: /contributing/tests/
 - title: FAQ
   url: /faq/
